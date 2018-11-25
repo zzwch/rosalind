@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+# Installing Python
+
 # Problem 
 # http://rosalind.info/problems/ini1/
 # After downloading and installing Python, type `import this` into the Python command line and see what happens. 
