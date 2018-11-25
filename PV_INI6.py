@@ -18,6 +18,7 @@
 # also 1
 # Zen 1
 
+# Solution 1
 s='We tried list and we tried dicts also we tried Zen'
 d={}
 for i in s.split(' '):
@@ -39,6 +40,30 @@ for k, v in d.items():
 ...     d[i] = 1
 ... 
 >>> for k, v in d.items():
+...   print(k, v)
+... 
+We 1
+tried 3
+list 1
+and 1
+we 2
+dicts 1
+also 1
+Zen 1
+'''
+
+# Solution 2
+# On the Shoulders of Giants you can also try the following
+# https://docs.python.org/2/library/collections.html
+from collections import Counter 
+s='We tried list and we tried dicts also we tried Zen'
+for k,v in Counter(s.split(' ')).items():
+  print(k, v)
+
+'''
+>>> from collections import Counter 
+>>> s='We tried list and we tried dicts also we tried Zen'
+>>> for k,v in Counter(s.split(' ')).items():
 ...   print(k, v)
 ... 
 We 1
