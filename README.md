@@ -2,6 +2,8 @@
 Rosalind is a platform for learning bioinformatics and programming through problem solving.
 
 ## Problems (285 in total @20181125)
+Python 3.5+ is recommended until now. It's the future.
+
 ### [Python Village](http://rosalind.info/problems/list-view/?location=python-village)
 If you are completely new to programming, try these initial problems to learn a few basics about the Python programming language. You'll get familiar with the operations needed to start solving bioinformatics challenges in the Stronghold.
 
