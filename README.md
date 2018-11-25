@@ -5,7 +5,7 @@ Rosalind is a platform for learning bioinformatics and programming through probl
 ### [Python Village](http://rosalind.info/problems/list-view/?location=python-village)
 If you are completely new to programming, try these initial problems to learn a few basics about the Python programming language. You'll get familiar with the operations needed to start solving bioinformatics challenges in the Stronghold.
 
-Solutions:
+Problems:
 [INI1](http://rosalind.info/problems/ini1/) `Installing Python`;
 [INI2](http://rosalind.info/problems/ini2/) `Variables and Some Arithmetic`;
 [INI3](http://rosalind.info/problems/ini3/) `Strings and Lists`;
