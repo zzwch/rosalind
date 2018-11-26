@@ -52,3 +52,14 @@ with open('output.txt', 'w') as fo:
 29
 # see output.txt 
 '''
+
+## results from hejian @20181127
+>>> file = open('./Rosalind/rosalind_ini5.txt')
+>>> lines = file.readlines()
+>>> i = 0
+>>> for line in lines:
+...     i += 1
+...     if i % 2 == 0:
+...             print(line)
+...
+
