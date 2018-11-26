@@ -35,3 +35,4 @@ Namespaces are one honking great idea -- let's do more of those!
 ##########################################
 # by hejian
 import this
+# yes you are right.
