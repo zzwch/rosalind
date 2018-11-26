@@ -36,4 +36,3 @@ Namespaces are one honking great idea -- let's do more of those!
 # by hejian @20181126
 import this
 # just for test
-# yes you are right.
