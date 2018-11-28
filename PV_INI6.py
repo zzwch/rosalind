@@ -75,3 +75,24 @@ dicts 1
 also 1
 Zen 1
 '''
+
+
+
+## solutions from hejian @20181127
+>>> text = 'We tried list and we tried dicts also we tried Zen'
+>>> word = text.split(" ")
+>>> set = set(word)
+>>> word1 = list(set)
+>>> dir = {}
+>>> for x in range(len(word1)):
+...     dir[word1[x]] = 0
+...     for y in range(len(word)):
+...             if word1[x] == word[y]:
+...                     dir[word1[x]] += 1
+...
+>>> print(dir)
+>>> for i, j in dir.items():
+...     print(i, j)
+...
+
+

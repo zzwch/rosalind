@@ -30,3 +30,9 @@ Humpt Dumpt
 >>> print(text[a:b+1], text[c:d+1])
 Humpty Dumpty
 '''
+
+##results from hejian @20181126
+>>> a="lm19qicswxRq03jTf1dRJsNfZmgObzk1XRUdKOVMdxMTpb9EPLOXbNJCbvvsfPelecanusQhqJ2NWw1z0ZCdH9Sj3KFhNu45kDNdlHg7altaicao8NTJaGpf4i5qfrNpthlRkeuDNO1vo053wsz7YkUcBOqov3yx3mOhm55e."
+>>> print(a[61:70],a[104:111])
+Pelecanus altaica
+...

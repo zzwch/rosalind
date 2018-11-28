@@ -32,3 +32,21 @@ print(s)
 7500
 >>> 
 '''
+
+## results from hejian @20181127
+>>> sum = 0
+>>> for i in range(101, 200, 2):
+...     sum += i
+...
+>>> print(sum)
+7500
+
+
+>>> sum = 0
+>>> for i in range(4211, 8876, 2):
+...     sum += i
+...
+>>> print(sum)
+15264819
+
+
