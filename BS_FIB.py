@@ -45,6 +45,15 @@ with open('rosalind_fib.txt', 'r') as f:
         
 print(F[-1])
 
+# Solution 2: use dynamic programming Recursive call function
+def fib(n, k):
+    assert n > 0 & k >= 0
+    if n == 1 or n == 2:
+        return(1)
+    else:
+        return(fib(n-1, k) + fib(n-2, k)*k)
+
+fib(5, 3)
 #########################################################
 # you may add your solutions below
 # Don't hesitate to send pull request for your new solution 
