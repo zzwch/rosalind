@@ -26,14 +26,23 @@
 # Solution 1
 s='GATATATGCATATACTT'
 t='ATAT'
-with open('rosalind_subs.txt', 'r') as f:
-    s=f.readline().strip()
-    t=f.readline().strip()
 p=[]
 for i in range(len(s)):
     if s[i:i+len(t)] == t:
         p.append(i+1)
         print(i+1, end=" ")
+        
+# Solution 2
+ith open('rosalind_subs.txt', 'r') as f:
+    s=f.readline().strip()
+    t=f.readline().strip()
+
+i = 0
+while True:
+    i = s.find(t, i) +1 # Notice 1 step one loop. Some matches will be ignored if >1 (eg. len(t)) steps one loop.  
+    if i==0:
+        break
+    print(i, end=" ")
 #########################################################
 # you may add your solutions below
 # Don't hesitate to send pull request for your new solution 
