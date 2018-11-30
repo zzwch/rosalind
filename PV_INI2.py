@@ -32,3 +32,14 @@ print(c)
 >>> print(c)
 34
 '''
+
+
+## results from hejian @20181126
+>>> a=931
+>>> b=998
+>>> c=a**2+b**2
+>>> print(c)
+1862765
+...
+
+
