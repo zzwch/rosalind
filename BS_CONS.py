@@ -12,13 +12,13 @@
 #               A T C C A G C T
 #               G G G C A A C T
 #               A T G G A T C T
-# DNA Strings	  A A G C A A C C
+#  DNA Strings  A A G C A A C C
 #               T T G G A A C T
 #               A T G C C A T T
 #               A T G G C A C T
 #
 #           A   5 1 0 0 5 5 0 0
-# Profile	  C   0 0 1 4 2 0 6 1
+#  Profile  C   0 0 1 4 2 0 6 1
 #           G   1 1 6 3 0 1 0 0
 #           T   1 5 0 0 0 1 1 6
 #
@@ -79,6 +79,13 @@ print(consensus)
 for k,v in profile.items():
     print(k, end=": ")
     print(' '.join([str(i) for i in v]))
+    
+# Solution 2: Advanced!
+from Bio import SeqIO
+matrix=zip(*[str(i.seq) for i in SeqIO.parse('rosalind_cons.txt', 'fasta')])
+profile=map(lambda x: dict((i, x.count(i)) for i in 'ATGC'), matrix)
+consensus=[max(i, key=i.get) for i in profile]
+print(''.join(consensus))
 #########################################################
 # you may add your solutions below
 # Don't hesitate to send pull request for your new solution 
