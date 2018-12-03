@@ -32,7 +32,7 @@ Discover the algorithms underlying a variety of bioinformatics topics: computati
 [PROT](http://rosalind.info/problems/prot/) [`Translating RNA into Protein`](https://github.com/lizc07/rosalind/blob/master/BS_PROT.py);
 [SUBS](http://rosalind.info/problems/subs/) [`Finding a Motif in DNA`](https://github.com/lizc07/rosalind/blob/master/BS_SUBS.py);
 [CONS](http://rosalind.info/problems/cons/) [`Consensus and Profile`](https://github.com/lizc07/rosalind/blob/master/BS_CONS.py);
-[FIBD](http://rosalind.info/problems/fibd/) [`Mortal Fibonacci Rabbits`](https://github.com/lizc07/rosalind/blob/master/BS_FIBD.py);
+[FIBD](http://rosalind.info/problems/fibd/) [`Mortal Fibonacci Rabbits`](https://github.com/lizc07/rosalind/blob/master/BS_FIBD.py):+1:;
 [GRPH](http://rosalind.info/problems/grph/) [`Overlap Graphs`](https://github.com/lizc07/rosalind/blob/master/BS_GRPH.py);
 [IEV](http://rosalind.info/problems/iev/) [`Calculating Expected Offspring`](https://github.com/lizc07/rosalind/blob/master/BS_IEV.py);
 [LCSM](http://rosalind.info/problems/lcsm/) [`Finding a Shared Motif`](https://github.com/lizc07/rosalind/blob/master/BS_LCSM.py);
