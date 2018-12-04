@@ -22,7 +22,8 @@
 ##########################
 # Solution from Hazard
 ##########################
-# Solution 1
+# Solution 1: not recommended
+# This solution is time-consuming when n,m is a large number (more than 30)
 def fib(n, m, M):
     assert M >= 3
     if m == 1:
@@ -45,7 +46,20 @@ def FIB(N, M):
     for i in range(1,M+1):
         fn += fib(N, i, M)
     return(fn)
-    
+
+# Solution 2: use a more simple method
+# see https://math.stackexchange.com/questions/511565/fibonacci-with-mortal-bunnies
+# and https://duphan.wordpress.com/2015/07/10/dynamic-programming-and-mortal-fibonacci-rabbits/
+def fib(passed_month:int, max_age:int, mature_month:int = 2):
+    current_generation = [1] + [0] * (max_age-1)
+    for i in range(passed_month-1):
+        current_generation = [sum(current_generation[mature_month-1:])] + current_generation[:-1]
+    return(current_generation)
+
+print(fib(6,3))
+print(sum(fib(6,3)))
+# [2, 1, 1]
+# 4
 #########################################################
 # you may add your solutions below
 # Don't hesitate to send pull request for your new solution 
