@@ -45,9 +45,9 @@ with open('rosalind_fib.txt', 'r') as f:
         
 print(F[-1])
 
-# Solution 2: use dynamic programming Recursive call function
+# Solution 2: use Recursive calling
 def fib(n, k):
-    assert n > 0 & k >= 0
+    assert n > 0 and k >= 0
     if n == 1 or n == 2:
         return(1)
     else:
