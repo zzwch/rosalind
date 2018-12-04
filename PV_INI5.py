@@ -63,3 +63,18 @@ with open('output.txt', 'w') as fo:
 ...             print(line)
 ...
 
+## results from hehan @20181204
+'''
+>>> with open(r'/Users/leave_veronica/file.txt','r') as f1,open('file1.txt','w') as f2:
+...     i = 0
+...     for line in f1:
+...         i += 1
+...         if i % 2 == 0:
+...             f2.write(line)
+...
+>>> with open(r'file1.txt') as f:
+...     for line in f:
+...         print(line.rstrip())
+...
+>>>
+'''
