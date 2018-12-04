@@ -56,9 +56,9 @@ print(s)
 >>> a = 0
 >>> for i in range(4680,9310):
 ...     if i % 2 == 1:
-...             a = a + i
+...         a = a + i
 ...     else:
-...             i = i + 1
+...         i = i + 1
 ...
 >>> print(a)
 16193425
