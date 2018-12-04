@@ -36,3 +36,11 @@ Humpty Dumpty
 >>> print(a[61:70],a[104:111])
 Pelecanus altaica
 ...
+
+
+## results from hehan @20181204
+'''
+>>> a = 'kRRhPUvZx8vITX9FoJWYOXuRLNhVxjLU8tGonocephalus2Uw67gDlpQyIiTKUu675RMKPKV6rPTKezTN7HcTGJ11K8G0FuHJYZaHyPAEvJebQ7U4fT5yZQEwF0N46NYMJvuio3Y00YcpulcherTKf6uCgKz6JNN'
+>>> print(a[34:46],a[140:147])
+Gonocephalus pulcher
+'''
