@@ -87,8 +87,8 @@ Zen 1
 >>> for x in range(len(word1)):
 ...     dir[word1[x]] = 0
 ...     for y in range(len(word)):
-...             if word1[x] == word[y]:
-...                     dir[word1[x]] += 1
+...         if word1[x] == word[y]:
+...             dir[word1[x]] += 1
 ...
 >>> print(dir)
 >>> for i, j in dir.items():
@@ -102,9 +102,9 @@ Zen 1
 >>> d = {}
 >>> for word in c:
 ...     if word in d:
-...             d[word] += 1
+...         d[word] += 1
 ...     else:
-...             d [word] = 1
+...         d[word] = 1
 ...
 >>> print(d)
 >>> for key, value in d.items():
